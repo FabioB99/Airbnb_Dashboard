@@ -20,7 +20,7 @@ The project consists of the following documents (which are all included in the G
 **finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.<br>
 **airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
 **airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section. <br>
-**requirements.txt**: List for all the used packages in this packages.<br>
+**requirements.txt**: List for all the used packages in this packages (includes only non-standard python packages).<br>
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
 
 # The "Airbnb Dashboard" file:
