@@ -206,7 +206,7 @@ filtered_neighbourhoods = None
 # Load the image for the head of the page
 @st.cache()
 def load_image():
-    image = Image.open(path +'Skyline.png')
+    image = Image.open('Skyline.png')
     return(image)
 
 image = load_image()
