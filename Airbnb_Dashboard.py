@@ -89,7 +89,7 @@ st.markdown(hide_header_style, unsafe_allow_html=True)
 # load base data
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv(path + "airbnb_data_dev.csv", nrows=20000)
+    df = pd.read_csv("airbnb_data_dev.csv", nrows=20000)
     df = df.drop(["host_id"],axis=1)
     #here we also add a column "icon_data" which will be used in the a map. This is done here because it is computationally intensive.
     #each row gets a different marker with a different colour according to its price
@@ -141,13 +141,13 @@ def load_data():
 #transformed data on which the model was performed
 @st.cache()
 def load_prediction_data():
-    prediction_data = pd.read_csv(path + "airbnb_prediction_data.csv", nrows=20000)
+    prediction_data = pd.read_csv("airbnb_prediction_data.csv", nrows=20000)
     return(prediction_data)
 
 #trained model for the price prediction
 @st.cache(allow_output_mutation=True)
 def load_model():
-    filename = path + "finalized_model.sav"
+    filename = "finalized_model.sav"
     loaded_model = pickle.load(open(filename, "rb"))
     return(loaded_model)
 
