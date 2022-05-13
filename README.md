@@ -7,7 +7,7 @@
 We created a web-dashboard to help real estate owners in New York City to price their properties on Airbnb.
 For this reason the first part of this dashboard **"Explore Data"** is to analyse the market and see how it reacts to different factors like neighbourhood or room type. If you now have analyzed the market and know which property you want to place on Airbnb or already knew it, the second part **"Price prediction"** helps you with pricing it. Our machine learning algorithm uses a **random forest regressor** to estimate an appropriate market price for your specific property!
 
-**IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python only, while automating the html and css coding, as well as hosting the webpage for us.<br> 
+**IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python only, while automating the graphical interface, as well as hosting the webpage for us.<br> 
 <br> 
 **View the project**: https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_Dashboard.py. <br>
 (Alternatively, the program can be started from the cmd line on your local system).
@@ -44,11 +44,10 @@ In this part of the code, the filtering sidebar on the left side of the page is 
 <br>
 
 **Section 5: Explore Data**<br>
-The 5th part of the dashboard focuses on creating the data vizualization, which is connected to the filtering section and is able to adjust in realtime. This part contains **two main parts**: First, Section 5 creates three different **bar plots** using the plotly package. Second, **Two maps** are created with the package pydeck. The first map is a heatmap of the price-adjusted distribution of datapoints on a map of NYC. The second map shows all the individual datapoints selected through the filtering options. In addition, there is also the option to show the filtered dataframe as a responsive table.
+The 5th part of the dashboard focuses on creating the data vizualization, which is connected to the filtering section and is able to adjust in realtime. This part contains **two main parts**: First, Section 5 creates three different **bar plots** using the plotly package to vizualize some KPIs. Second, **Two maps** are created with the package pydeck. The first map is a heatmap of the price-adjusted distribution of datapoints on a map of NYC. The second map shows all the individual datapoints selected through the filtering options. In addition, there is also the option to show the filtered dataframe as a responsive table.
 <br>
 
 **Section 6: Price Prediction**<br>
-The last part of the project is used to create the prediction algorithm.  
-
+The last part of the project is used to create the prediction algorithm. In the first part of this section, the **user interface elements** are created, using the same filtering logic as in section 4. Then, a new dataframe is being created based on the chosen input elements. However, bBefore running the prediction model, the Dataframe has to be transformed into the same shape, as the training dataset, on which the model is based upon. Two start the prediction process, a clickable button is added as well.
 
 
