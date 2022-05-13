@@ -11,7 +11,7 @@ If you now have analyzed the market and know which property you want to place on
 In order to deploy the app **directly from a webbrowser**, we used the open source python framework **streamlit**.<br>
 Click on https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_Dashboard.py to view the project. Alternatively, the program can be started from the cmd line on your local system.
 
-# Document description:
+# File description:
 The project consists of the following documents (which are all included in the Gihub repo):<br>
 <br>
 **1. Airbnb_Dashboard.py**: The main python file for the application. The script loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
