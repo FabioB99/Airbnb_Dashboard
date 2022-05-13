@@ -283,6 +283,8 @@ with st.expander("See Section Description"):
 
 
 # KPIs
+##########################################################
+
 st.subheader("KPIs")
 with st.expander("See KPI Description"):
      st.markdown("The KPIs provide insights about the situation of New York's Airbnb market, based on the selection filters on the left side. ")
