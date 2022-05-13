@@ -23,10 +23,10 @@ The project consists of the following documents (which are all included in the G
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
 
 # Desciption for the Airbnb Dashboard file:
-The main python file consistes of sections of 6 main sections. All the detailed information for the code is included directly in the python file.
+The main python file consistes of sections of 6 main sections. All the detailed information for the code is included directly in the python file.<br>
 <br>
 **Section 1: Load libraries**<br>
-This part of the code is used to load in the used datasets (mentioned above) and the prediction model. In addition, some basic layouting settings (ex. to adjust the header) are done right at the top of the program.<br>
+This part of the code is used to load in the used datasets (mentioned above) and the prediction model. In addition, some basic layoute settings (ex. to adjust the header) are done right at the beginning of the program.<br>
 <br>
 **Section 2: Additional preparation**
 The second part of the file consists mainly of some functions which are used to store all the names of NYC neighborhoods in string arrays. These arrays are used later in the project for some filtering functions.<br>
