@@ -45,6 +45,11 @@ In this part of the code, the filtering sidebar on the left side of the page is 
 <br>
 
 **Section 5: Explore Data**<br>
-The 5th part of the dashboard focuses on creating
+The 5th part of the dashboard focuses on creating the data vizualization, which is connected to the filtering section and is able to adjust in realtime. This part contains **two main parts**: First, Section 5 creates three different **bar plots** using the plotly package. Second, **Two maps** are created with the package pydeck. The first map is a heatmap of the price-adjusted distribution of datapoints on a map of NYC. The second map shows all the individual datapoints selected through the filtering options. In addition, there is also the option to show the filtered dataframe as a responsive table.
+<br>
+
+**Section 6: Price Prediction**<br>
+The last part of the project is used to create the prediction algorithm.  
+
 
 
