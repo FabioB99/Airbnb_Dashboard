@@ -32,19 +32,19 @@ The main python file consistes of sections of **6 main sections**. All the more 
 This part of the code is used to load in the used datasets (mentioned above) and the prediction model. In addition, some basic layoute settings (ex. to adjust the header) are done right at the beginning of the program.<br>
 <br>
 
-**Section 2: Additional preparation**
+**Section 2: Additional preparation**<br>
 The second part of the file consists mainly of some functions which are used to store all the names of NYC neighborhoods in string arrays. These arrays are used later in the project for some filtering functions.<br>
 <br>
 
-**Section 3: Header**
+**Section 3: Header**<br>
 The third section only consists of a few lines of code to layout the header.<br>
 <br>
 
-**Section 4: Filter section**
+**Section 4: Filter section**<br>
 In this part of the code, the filtering sidebar on the left side of the page is created. The code consists of some streamlit input widgets (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data Secion" (Section 5). The last part of this section uses the selected filtering options from the input widgets to show the filtered data in realtime on the page. Everytime the filters are changed, the page refreshes and runs the filtering process again.<br>
 <br>
 
-**Section 5: Explore Data**
+**Section 5: Explore Data**<br>
 The 5th part of the dashboard focuses on creating
 
 
