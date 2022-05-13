@@ -16,7 +16,7 @@ The project consists of the following documents (which are all included in the G
 <br>
 **1. Airbnb_Dashboard.py**: The main python file for the application. The script creates loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
 **2. Airbnb Housing Data.ipynb**: This Jupyter Notebooks document was used to develop the prediction model and the related dataset (airbnb_prediction_data.csv).<br>
-**3. finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.
-**3. airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
+**3. finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.<b>
+**4. airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
 **4. airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section
 
