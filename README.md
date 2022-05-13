@@ -20,7 +20,7 @@ The project consists of the following documents (which are all included in the G
 **finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.<br>
 **airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
 **airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section. <br>
-**requirements.txt**: List for all the used packages.<br>
+**requirements.txt**: List for all the used packages in this packages.<br>
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
 
 # The "Airbnb Dashboard" file:
@@ -48,6 +48,5 @@ The 5th part of the dashboard focuses on creating the data vizualization, which 
 <br>
 
 **Section 6: Price Prediction**<br>
-The last part of the project is used to create the prediction algorithm. In the first part of this section, the **user interface elements** are created, using the same filtering logic as in section 4. Then, a new dataframe is being created based on the chosen input elements. However, bBefore running the prediction model, the Dataframe has to be transformed into the same shape, as the training dataset, on which the model is based upon. Two start the prediction process, a clickable button is added as well.
-
+The last part of the project is used to create the prediction algorithm. In the first part of this section, the **user interface elements** are created, using the same filtering logic as in section 4. Then, a new dataframe is being created based on the chosen input elements. However, before running the prediction model, the Dataframe has to be transformed into the same shape, as the training dataset used in the model. Two start the prediction process, a clickable button is added as well.
 
