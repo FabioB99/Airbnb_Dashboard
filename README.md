@@ -7,7 +7,7 @@
 We created a web-dashboard to help real estate owners in New York City to price their properties on Airbnb.
 For this reason the first part of this dashboard **"Explore Data"** is to analyse the market and see how it reacts to different factors like neighbourhood or room type. If you now have analyzed the market and know which property you want to place on Airbnb or already knew it, the second part **"Price prediction"** helps you with pricing it. Our machine learning algorithm uses a **random forest regressor** to estimate an appropriate market price for your specific property!
 
-**IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (See: https://streamlit.io/). Streamlit allows us to create the dashboard in python only, while automating the html and css coding, as well as hosting the webpage for us.<br> 
+**IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python only, while automating the html and css coding, as well as hosting the webpage for us.<br> 
 <br> 
 **View the project**: https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_Dashboard.py. <br>
 (Alternatively, the program can be started from the cmd line on your local system).
@@ -42,6 +42,9 @@ The third section only consists of a few lines of code to layout the header.<br>
 
 **Section 4: Filter section**
 In this part of the code, the filtering sidebar on the left side of the page is created. The code consists of some streamlit input widgets (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data Secion" (Section 5). The last part of this section uses the selected filtering options from the input widgets to show the filtered data in realtime on the page. Everytime the filters are changed, the page refreshes and runs the filtering process again.<br>
+<br>
 
+**Section 5: Explore Data**
+The 5th part of the dashboard focuses on creating
 
 
