@@ -13,7 +13,7 @@ For this reason the first part of this dashboard **"Explore Data"** is to analys
 (Alternatively, the program can be started from the cmd line on your local system).
 
 # File description:
-The project consists of the following documents (which are all included in the Gihub repo):<br>
+The project consists of the following documents (which are all included in the Github repo):<br>
 
 **Airbnb_Dashboard.py**: The main python file for the application. The script loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
 **Airbnb Housing Data.ipynb**: This Jupyter Notebooks document was used to develop the prediction model and the related dataset (airbnb_prediction_data.csv).<br>
