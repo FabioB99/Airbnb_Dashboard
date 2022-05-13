@@ -14,13 +14,13 @@ Click on https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_
 # File description:
 The project consists of the following documents (which are all included in the Gihub repo):<br>
 <br>
-**1. Airbnb_Dashboard.py**: The main python file for the application. The script loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
-**2. Airbnb Housing Data.ipynb**: This Jupyter Notebooks document was used to develop the prediction model and the related dataset (airbnb_prediction_data.csv).<br>
-**3. finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.<br>
-**4. airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
-**5. airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section. <br>
-**6. requirements.txt**: List for all the used packages.<br>
-**7. Skyline.png**: Picture used in the header of the streamlit application.<br>
+**Airbnb_Dashboard.py**: The main python file for the application. The script loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
+**Airbnb Housing Data.ipynb**: This Jupyter Notebooks document was used to develop the prediction model and the related dataset (airbnb_prediction_data.csv).<br>
+**finalized_mdoel.sav**: The prediction model created in the notebook was then exported using the pickle package and stored as a .sav file.<br>
+**airbnb_data_dev.csv**: Contains the dataset which is used for the data visualization in the "Explore Data" section. <br>
+**airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section. <br>
+**requirements.txt**: List for all the used packages.<br>
+**Skyline.png**: Picture used in the header of the streamlit application.<br>
 
 # Desciption for the Airbnb Dashboard file:
 The main python file consistes of the following sections:
