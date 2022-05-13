@@ -1,0 +1,6 @@
+streamlit == 1.8.1
+numpy == 1.20.3
+pandas == 
+plotly.express == 0.4.1
+plotly == 5.6.0
+pydeck == 0.7.1
