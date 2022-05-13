@@ -22,7 +22,7 @@ The project consists of the following documents (which are all included in the G
 **requirements.txt**: List for all the used packages.<br>
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
 
-# Desciption for the Airbnb Dashboard file:
+# The "Airbnb Dashboard" file:
 The main python file consistes of sections of 6 main sections. All the detailed information for the code is included directly in the python file.<br>
 <br>
 **Section 1: Load libraries**<br>
