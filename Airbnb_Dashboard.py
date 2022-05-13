@@ -26,8 +26,8 @@ print('streamlit run ' + '"' + path + 'Airbnb_Dashboard.py"')
 import streamlit as st
 import numpy as np
 import pandas as pd
-from st_aggrid import AgGrid
-from st_aggrid.grid_options_builder import GridOptionsBuilder
+# from st_aggrid import AgGrid
+# from st_aggrid.grid_options_builder import GridOptionsBuilder
 import plotly.express as px
 import pydeck as pdk
 from pydeck.types import String
@@ -210,15 +210,6 @@ def load_image():
     return(image)
 
 image = load_image()
-
-#def parameters for the interactive table
-def create_grid():
-    gb = GridOptionsBuilder.from_dataframe(filtered_df)
-    #gb.configure_pagination()
-    gb.configure_side_bar()
-    gb.configure_default_column(groupable=True, value=True, enableRowGroup=True, aggFunc="sum", editable=True)
-    gridOptions = gb.build()
-    AgGrid(filtered_df, gridOptions=gridOptions, enable_enterprise_modules=True)
 
 #create hierachy between neighbourhood_group and neighbourhood which can be used in the filter.
 #As a result if the neighbourhood_group "Bronx" is selected in the first filter, only the neighbourhoods of bronx will be available in the second filter.
@@ -459,12 +450,10 @@ st.pydeck_chart(
      },
  ))
 
-#create an expander with a subheader and the table we already defined in the function create_grid
-with st.expander("Show Detailed data"):
-     st.subheader("Dataset")
-     create_grid()
-
-
+#create an expander with a subheader and the table
+# with st.expander("Show Detailed data"):
+#    st.subheader("Dataset")
+#     st.dataframe(filtered_df)
 
 ################################################
 # Section 4: Prediction section
