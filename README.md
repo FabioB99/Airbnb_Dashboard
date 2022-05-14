@@ -12,6 +12,11 @@ For this reason the first part of this dashboard **"Explore Data"** is to analys
 **View the project**: https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_Dashboard.py. <br>
 (Alternatively, the program can be started from the cmd line on your local system).
 
+**Alternative**:<br>
+You can also run the program from your local system with Anaconda<br>
+1. Start the Anaconda prompt with the environment where the required packages are installed<br>
+2. Type into the command line: streamlit run "path of the Github repo or downloaded project folder"
+
 # File description:
 The project consists of the following documents (which are all included in the Github repo):<br>
 
