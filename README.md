@@ -10,12 +10,11 @@ For this reason the first part of this dashboard **"Explore Data"** is to analys
 **IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python only, while automating the graphical interface, as well as hosting the webpage for us.<br> 
 <br> 
 **View the project**: https://share.streamlit.io/fabiob99/airbnb-housing-project/main/Airbnb_Dashboard.py. <br>
-(Alternatively, the program can be started from the cmd line on your local system).
 
 **Alternative**:<br>
-You can also run the program from your local system with Anaconda<br>
-1. Start the Anaconda prompt with the environment where the required packages are installed<br>
-2. Type into the command line: streamlit run "path of the Github repo or downloaded project folder"
+You can also run the program from your **local system** with **Anaconda**<br>
+**1. Start the Anaconda prompt** with the environment where the required packages are installed<br>
+**2. Type into the command line:** streamlit run "path of the Github repo or downloaded project folder"<br>
 
 # File description:
 The project consists of the following documents (which are all included in the Github repo):<br>
