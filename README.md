@@ -25,6 +25,7 @@ The project consists of the following documents (which are all included in the G
 **airbnb_prediction_data.csv**: Contains the transformed dataset which is used in the prediction section. <br>
 **requirements.txt**: List for all the used packages in this packages (includes only non-standard python packages).<br>
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
+<br>
 
 ### The "Airbnb_Dashboard.py" file:
 The main python file consistesconsists of sections of **6 main sections**. The more detailed information for the individual code snippets is included directly in the python file.
