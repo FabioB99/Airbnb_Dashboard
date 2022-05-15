@@ -6,7 +6,8 @@
 ## Project description: 
 We created a web-dashboard to help **real estate owners in New York City** to **price their properties on Airbnb**. For this reason the **first part** of this dashboard **"Explore Data"** is to analyse the market and see how it reacts to different factors like neighbourhood or room type. If you now have analyzed the market and know which property you want to place on Airbnb or already knew it, the **second part "Price prediction"** helps you with pricing it. Our machine learning algorithm uses a random forest regressor to estimate an appropriate market price for your specific property!
 
-**IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python, while automating the graphical interface, as well as hosting the webpage for us.<br> 
+**IMPORTANT NOTE:**<br>
+The **dataset we used** for this app can be accessed for free on kaggle (https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data). In order to deploy the app **directly in a webbrowser**, we also used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python, while automating the graphical interface, as well as hosting the webpage for us.<br> 
 <br> 
 **View the project**: https://share.streamlit.io/fabiob99/airbnb_dashboard/main/Airbnb_Dashboard.py <br>
 
