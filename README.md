@@ -1,4 +1,4 @@
-# airbnb-housing-project
+# Airbnb_Dashboard
 
 **Authors**: Cedric Fleury, Damian Buess, Fabio Bohren<br>
 **Version**: 1.0
