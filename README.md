@@ -30,7 +30,7 @@ The project consists of the following documents (which are all included in the G
 <br>
 
 ### The "Airbnb_Dashboard.py" file:
-The main python file consistesconsists of sections of **6 main sections**. The more detailed information for the individual code snippets is included directly in the python file.
+The main python file consists of **6 main sections**. The more detailed information for the individual code snippets is included directly in the python file.
 <br>
 
 **Section 1: Load libraries**<br>
