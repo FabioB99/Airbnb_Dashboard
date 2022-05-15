@@ -46,7 +46,7 @@ The third section only consists of a few lines of code to **layout the header**.
 <br>
 
 **Section 4: Filter section**<br>
-In this part of the code, the **filtering sidebar** on the left side of the page is created. The code consists of some **streamlit input widgets** (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data" section (Section 5). The last part of this section uses the selected filtering options from the input widgets to **show the filtered data in realtime** on the page. Everytime the filters are changed, the page refreshes and runs the filtering process again.
+In this part of the code, the **filtering sidebar** on the left side of the page is created. The code consists of some **streamlit input widgets** (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data" section (Section 5). The last part of this section uses the selected filtering options from the input widgets to create a **filtered dataset**, which is used in section 5.
 <br>
 
 **Section 5: Explore Data**<br>
