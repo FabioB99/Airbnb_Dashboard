@@ -14,6 +14,8 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import pydeck as pdk
+from st_aggrid import AgGrid
+from st_aggrid.grid_options_builder import GridOptionsBuilder
 from pydeck.types import String
 import pickle
 from PIL import Image
@@ -204,6 +206,15 @@ def check_borough(neighbourhood_group_filter):
     if "Staten Island" in neighbourhood_group_filter:
             filter_options.extend(staten_island_neighbourhoods)
     return filter_options
+
+# Define function for the interactive dateframe
+def create_grid():
+    gb = GridOptionsBuilder.from_dataframe(filtered_df)
+    #gb.configure_pagination()
+    gb.configure_side_bar()
+    gb.configure_default_column(groupable=True, value=True, enableRowGroup=True, aggFunc="sum", editable=True)
+    gridOptions = gb.build()
+    AgGrid(filtered_df, gridOptions=gridOptions, enable_enterprise_modules=True)
 
 
 ##########################################################
@@ -444,9 +455,8 @@ st.pydeck_chart(
  ))
 
 # Create an expander with a subheader and the table
-# with st.expander("Show Detailed data"):
-#    st.subheader("Dataset")
-#    st.dataframe(filtered_df)
+with st.expander("Show Detailed data"):
+     create_grid()
 
 
 ##########################################################
