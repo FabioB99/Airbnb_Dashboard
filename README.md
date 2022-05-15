@@ -39,11 +39,11 @@ The second part of the file consists mainly of some functions which are used to 
 <br>
 
 **Section 3: Header**<br>
-The third section only consists of a few lines of code to layout the header.
+The third section only consists of a few lines of code to **layout the header**.
 <br>
 
 **Section 4: Filter section**<br>
-In this part of the code, the filtering sidebar on the left side of the page is created. The code consists of some streamlit input widgets (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data" section (Section 5). The last part of this section uses the selected filtering options from the input widgets to show the filtered data in realtime on the page. Everytime the filters are changed, the page refreshes and runs the filtering process again.
+In this part of the code, the **filtering sidebar** on the left side of the page is created. The code consists of some **streamlit input widgets** (https://docs.streamlit.io/library/api-reference/widgets) which are used to filter the data in the "Explore Data" section (Section 5). The last part of this section uses the selected filtering options from the input widgets to **show the filtered data in realtime** on the page. Everytime the filters are changed, the page refreshes and runs the filtering process again.
 <br>
 
 **Section 5: Explore Data**<br>
@@ -51,5 +51,5 @@ The 5th part of the dashboard focuses on creating the **data visualization**, wh
 <br>
 
 **Section 6: Price Prediction**<br>
-The last part of the project is used to create the price prediction. In the first part of this section, the **user interface elements** are created, using a similar filtering logic as in section 4. Then, a new dataframe is being created based on the chosen input elements. However, before running the prediction model, the Dataframe has to be transformed into the same shape, as the training dataset used in the model. To start the prediction process, a clickable button is added as well.
+The last part of the project is used to create the **price prediction**. In the first part of this section, the **user interface elements** are created, using a similar filtering logic as in section 4. Then, a new dataframe is being created based on the **chosen input elements**. However, before running the prediction model, the **dataframe** has to be **transformed** into the same shape, as the training dataset used in the model. To start the prediction process, a **clickable button** is added as well.
 
