@@ -34,7 +34,7 @@ The main python file consists of **6 main sections**. The more detailed informat
 <br>
 
 **Section 1: Load libraries**<br>
-This part of the code is used to load in the used datasets (mentioned above) and the prediction model. In addition, some basic layoute settings (ex. to adjust the header) are done right at the beginning of the program.
+This part of the code is used to load in the used datasets (mentioned above) and the prediction model. In addition, some basic layout settings (ex. to adjust the header) are done right at the beginning of the program.
 <br>
 
 **Section 2: Additional preparation**<br>
