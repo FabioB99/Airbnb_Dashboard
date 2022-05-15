@@ -3,7 +3,7 @@
 **Authors**: Cedric Fleury, Damian Buess, Fabio Bohren<br>
 **Version**: 1.0
 
-# Project description: 
+## Project description: 
 We created a web-dashboard to help **real estate owners in New York City** to **price their properties on Airbnb**. For this reason the **first part** of this dashboard **"Explore Data"** is to analyse the market and see how it reacts to different factors like neighbourhood or room type. If you now have analyzed the market and know which property you want to place on Airbnb or already knew it, the **second part "Price prediction"** helps you with pricing it. Our machine learning algorithm uses a random forest regressor to estimate an appropriate market price for your specific property!
 
 **IMPORTANT NOTE:** In order to deploy the app **directly in a webbrowser**, we used the open source python framework **streamlit** (https://streamlit.io/). Streamlit allows us to create the dashboard in python, while automating the graphical interface, as well as hosting the webpage for us.<br> 
@@ -15,7 +15,7 @@ You can also run the program from your **local system** with **Anaconda**<br>
 **1. Start the Anaconda prompt** with the environment where the required packages are installed (view requirements.txt)<br>
 **2. Type into the command line:** streamlit run "path of the Github repo or the project file"<br>
 
-# File description:
+## File description:
 The project consists of the following documents (which are all included in the Github repo):<br>
 
 **Airbnb_Dashboard.py**: The main python file for the application. The script loads the necessary files, creates all the interface elements and data vizualizations and runs the prediction algorithm. See below for further comments on this part of the project. <br>
@@ -26,7 +26,7 @@ The project consists of the following documents (which are all included in the G
 **requirements.txt**: List for all the used packages in this packages (includes only non-standard python packages).<br>
 **Skyline.png**: Picture used in the header of the streamlit application.<br>
 
-# The "Airbnb_Dashboard.py" file:
+### The "Airbnb_Dashboard.py" file:
 The main python file consistesconsists of sections of **6 main sections**. The more detailed information for the individual code snippets is included directly in the python file.
 <br>
 
@@ -52,4 +52,3 @@ The 5th part of the dashboard focuses on creating the **data visualization**, wh
 
 **Section 6: Price Prediction**<br>
 The last part of the project is used to create the **price prediction**. In the first part of this section, the **user interface elements** are created, using a similar filtering logic as in section 4. Then, a new dataframe is being created based on the **chosen input elements**. However, before running the prediction model, the **dataframe** has to be **transformed** into the same shape, as the training dataset used in the model. To start the prediction process, a **clickable button** is added as well.
-
