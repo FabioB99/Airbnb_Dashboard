@@ -13,7 +13,7 @@ The **dataset we used** for this app can be accessed for free on kaggle (https:/
 
 **Alternative**:<br>
 You can also run the program from your **local system** with **Anaconda**<br>
-**1. Start the Anaconda prompt** with the environment where the required packages are installed (view requirements.txt)<br>
+**1. Start the Anaconda prompt** with an environment where the required packages are installed (view requirements.txt)<br>
 **2. Type into the command line:** streamlit run "path of the Github repo or the project file"<br>
 
 ## File description:
