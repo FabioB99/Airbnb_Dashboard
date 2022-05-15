@@ -13,7 +13,7 @@ For this reason the first part of this dashboard **"Explore Data"** is to analys
 
 **Alternative**:<br>
 You can also run the program from your **local system** with **Anaconda**<br>
-**1. Start the Anaconda prompt** with the environment where the required packages are installed<br>
+**1. Start the Anaconda prompt** with the environment where the required packages are installed (view requirements.txt)<br>
 **2. Type into the command line:** streamlit run "path of the Github repo or the project file"<br>
 
 # File description:
