@@ -1,4 +1,4 @@
-# Airbnb_Dashboard
+# Airbnb Dashboard
 
 **Authors**: Cedric Fleury, Damian Buess, Fabio Bohren<br>
 **Version**: 1.0
